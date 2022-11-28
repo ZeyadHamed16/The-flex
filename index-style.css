@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #002144;
+}
+
+/* ---------------------------------------------------- */
+/* navagation */
+nav {
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	background-color: cadetblue;
+
+	border-bottom: 5px solid black;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.item {
+	display: flex;
+
+	color: black;
+	background-color: cadetblue;
+
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	border-radius: 20px;
+
+	padding: 20px 10px;
+	margin: 5px;
+
+	align-items: center;
+	justify-content: center;
+
+	transition: 0.5s ease;
+}
+
+.item:hover {
+	color: cadetblue;
+	background-color: black;
+}
+
+.location-head {
+	flex-grow: 1;
+}
+
+.home-head {
+	flex-grow: 2;
+	border-left: 4px solid;
+	border-right: 4px solid;
+}
+
+.about-head {
+	flex-grow: 1;
+}
+
+
+/* ---------------------------------------------------- */
+
+.container {
+	display: flex;
+	flex-flow: column;
+
+	background-color: antiquewhite;
+	width: 100%;
+	height: 1500px;
+}
+
+/* ---------------------------------------------------- */
+
+header {
+	background-color: brown;
+	flex-grow: 3;
+
+	background-image: url(./creativa-homepage.png);
+	background-size: 100% 100%;
+}
+
+/* ---------------------------------------------------- */
+
+.middle-content {
+	display: flex;
+	flex-grow: 5;
+}
+
+.first,
+.second,
+.third {
+	padding: 15px;
+	
+}
+
+.first {
+	background-color: blue;
+	flex-grow: 2;
+}
+
+.second {
+	background-color:darkgray;
+	flex-grow: 5;
+}
+
+.third {
+	background-color:chocolate;
+	flex-grow: 1;
+}
+
+/* ---------------------------------------------------- */
+
+footer {
+	display: flex;
+	flex-grow: 0.5;
+
+	background-color: #002144;
+	color: white;
+
+	align-items: center;
+	justify-content: center;
+
+	font-weight: bold;
+}
